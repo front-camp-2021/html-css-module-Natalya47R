@@ -1,0 +1,21 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1256px;
+  gap: 28px;
+  padding:  10px 28px 10px 28px;
+  background: #F9F9F9;
+}
+.row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.item {
+  width: 400px;
+  height: 486px;
+}
+body, html {
+  margin: 0;
+  height: 100%;
+}
