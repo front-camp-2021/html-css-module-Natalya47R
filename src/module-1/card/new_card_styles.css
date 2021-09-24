@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100fr;
+  grid-template-rows: 63fr 37fr;
+  gap: 0 0;
+  grid-template-areas:
+    "."
+    ".";
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1352);
+  height: 486px;
+  width: 400px;
+}
+
+.item1 {
+  display: grid;
+  justify-content: center;
+  align-content:  center;
+
+}
+.item2 {
+  display: grid;
+  grid-template-columns: 100fr;
+  grid-template-rows: 35fr 12fr 15fr 21fr;
+  gap: 0 0;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    ".";
+}
+
+.rating-price {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+  grid-template-rows: 100fr;
+  gap: 0 0;
+  grid-template-areas:
+    ". .";
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 21px;
+
+}
+.rating {
+  display: grid;
+  background: #6F64F8;
+
+  width: 65px;
+  height: 30px;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+}
+
+
+.price {
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  font-family: Montserrat, serif;
+  font-size: 18px;
+  color: #2C2C2C;
+}
+
+.name {
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 24px;
+}
+
+
+.description {
+  font-family: Montserrat, serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding-left: 24px;
+
+
+}
+.buttons_group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas:
+    ". .";
+  background-color: bisque;
+}
+.wishlist {
+
+}
+
+.wishlist_button {
+  background-color: #EDEDED;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart_icon {
+  padding-right: 9px;
+}
+
+.add-to-cart {
+
+}
+
+.add_to_cart_button {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  background-color: #6F64F8;
+  color: white;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag_icon {
+  padding-right: 12px;
+}
